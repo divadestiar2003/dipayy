@@ -1,0 +1,76 @@
+<?php
+
+$agent=$_SERVER['HTTP_USER_AGENT'];
+if(!preg_match('/com.stmreload/i', $agent) ) {
+ exit("HALAMAN INI HANYA BISA DIBUKA DI APLIKASI");
+}
+?>
+
+
+<style> legend { color:white ; padding: 0px; background: #000; border-radius: 6px; } fieldset { max-width: 500px; border-radius: 16px; border-color:#0000; background: #0000; } label { float: left; } input { border-radius: 10px;border-color:#fff; border-radius: 5px; height: 35px; margin-top: 10px; margin-bottom: 0px; } button { cursor: pointer; color: #000; background:linear-gradient( Blue,Blue); width: 100px; height: 35px; border-radius: 5px;
+border: none; } button:hover { background: #000; } label { color: #0000; } </style> </head> <body>  </body> </html>
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html>
+				<title>DiPay Game</title>
+<style>
+.accordionWrapper
+{ padding:25x; 
+background:#fff; 
+float:left; width:500px; 
+border-radius: 3px; 
+box-sizing:border-box; margin:40%; 
+box-shadow: 0 1.9em 95px 0 rgba(0, 0, 0, 0.2);} 
+.accordionList{ float:left; display:block; width:100%; box-sizing: 
+border-box;"Bold", sans-serif;} 
+.accordionTitle
+{ cursor:pointer; margin:0px 0px 15px 0px; padding:7px; 
+font-size: 23px; 
+font-weight: 100; background-image:linear-gradient(#fff,#fff);border:3px solid #000;border-radius:5px;font-family:serif;box-shadow: 1px 1px 1px 1px rgba(1, 1, 1, 0.10); width:100%; 
+border-radius: 5px; box-sizing: border-box;}
+ .accordionTitle span
+ { 
+ float: right; font-size: 23px;} .close .accordionListContent{ height:7px; transition:height 1s ease-out; transform: scaleY(0); float:left; display:block;} 
+ .open
+ .accordionListContent
+
+ { padding: 8px;  background-image:linear-gradient(#fff,#fff);border:3px solid #000;border-radius:5px;font-family:serif;box-shadow: 1px 1px 1px 1px rgba(1, 1, 1, 0.10); width: 100%; margin: 1px 0px 5px 0px; display:block; transform: scaleY(1); transform-origin: top; transition: transform 0.5s ease; box-sizing: border-box;} .open 
+ .accordionTitle{ margin:0px;
+border-top-left-radius:5px; border-top-right-radius: 5px; border-bottom-right-radius:5px; border-bottom-left-radius: 5px; background-color: #000000; color: #000;}
+
+</style>
+
+
+<body>
+
+<!-- LIST HARGA 1 -->
+<div class="accordionList close"> <h2 class="accordionTitle"><font family="bold"<font color="#000" size="3px">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<b><font size ="3px">Listrik PascaBayar</font></b></style></font><span><font color="black"></font></span></br><font color="#000"  size="1.9em">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font size ="1px">Cek Tagihan</font></h2>
+<div class="accordionListContent">
+<center><form method="get" action="https://dipay.bukaolshop.site/produk/pln-pascabayar-999762">
+<div id="alertWarning" class="alert alert-warning" role="alert"><font size ="2px">Masukan ID PELANGGAN dengan benar !</font></div>
+<input type="number" name="catatan" placeholder="Masukan ID PEL"/>
+<button type="submit" ><b>BAYAR</b></button> </form></center> </div> </div> 
+
+
+
+
+<script>var accItem = document.getElementsByClassName('accordionList'); var accHD = document.getElementsByClassName('accordionTitle'); for (i = 0; i < accHD.length; i++) { accHD[i].addEventListener('click', toggleItem, false); } function toggleItem() { var itemClass = this.parentNode.className; for (i = 0; i < accItem.length; i++) { accItem[i].className = 'accordionList close'; } if (itemClass == 'accordionList close') { this.parentNode.className = 'accordionList open'; } }</script></body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
